@@ -1,0 +1,13 @@
+from typing import List, Protocol
+
+class Metric(Protocol):
+    ...
+
+class AgentMetric(Metric):
+    ...
+
+class ConversationMetric(Metric):
+    ...
+
+class SimulationMetric(Metric):
+    ...
